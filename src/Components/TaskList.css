@@ -1,0 +1,29 @@
+.completed span {
+  text-decoration: line-through;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bd2130;
+}
